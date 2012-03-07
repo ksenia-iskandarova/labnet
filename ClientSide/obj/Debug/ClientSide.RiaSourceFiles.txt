@@ -1,0 +1,1 @@
+C:\Users\1\documents\visual studio 2010\Projects\WebApplication2\ClientSide.Web\ClientSide.Web.csproj,634664193039546727,Properties\AssemblyInfo.cs,

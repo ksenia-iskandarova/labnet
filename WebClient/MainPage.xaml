@@ -1,0 +1,210 @@
+﻿<UserControl x:Class="WebClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" xmlns:dataInput="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input"
+    d:DesignHeight="535" d:DesignWidth="745" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+
+    <Grid x:Name="LayoutRoot" Background="White" Height="415">
+        <Canvas Height="225" HorizontalAlignment="Left" Margin="24,11,0,0" Name="canvas1" VerticalAlignment="Top" Width="328" Background="#FFF8F5D5">
+            <Line Name="OX"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="OY"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="OZ"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <TextBlock Name="TOX" Text="X" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TOXt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="TOZ" Text="Z" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TOZt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="TOY" Text="Y" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TOYt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Line Name="LT1X"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT2X"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT1Y"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT2Y"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT1Z"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT2Z"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT1"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT2"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LT3"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Ellipse Name="PT" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT" Text="T" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TTt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PTX" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformTX"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TTX" Text="TX" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TTXt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PTY" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformTY"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TTY" Text="TY" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TTYt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PTZ" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformTZ"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TTZ" Text="TZ" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TTZt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PT1" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT1"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT11" Text="T1" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TT11t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PT2" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT2"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT22" Text="T2" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TT22t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PT3" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT3"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT33" Text="T3" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TT33t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+        </Canvas>
+        <Canvas Height="225" Margin="369,12,31,0" Name="canvas2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="328" Background="#FFF8F5D5">
+            <TextBlock Name="CX" Text="X" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="CXt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <TextBlock Name="CZ" Text="Z" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="CZt"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Line Name="LC1"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC2"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC21"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC3"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC4"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+
+            <Line Name="LC5"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC6"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC7"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC8"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="LC9"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="OXc"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            <Line Name="OZc"  StrokeThickness="1" Stroke="#FFE20616"></Line>
+            
+            <Ellipse Name="PC1c" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformC1c"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TC1" Text="C1" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TC1t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PC2c" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformC2c"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TC2" Text="C2" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TC2t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PC3c" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformC3c"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TC3" Text="C3" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TC3t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PT1c" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT1c"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT1" Text="T1" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TT1t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PT2c" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT2c"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT2" Text="T2" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TT2t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            <Ellipse Name="PT3c" Fill="Fuchsia" Stroke="Black" StrokeThickness="1" MinWidth="2" MinHeight="2" MaxWidth="5" MaxHeight="5" Height="5" Width="5">
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="transformT3c"/>
+                </UIElement.RenderTransform>
+            </Ellipse>
+            <TextBlock Name="TT3" Text="T3" >
+                <UIElement.RenderTransform>
+                    <TranslateTransform x:Name="TT3t"/>
+                </UIElement.RenderTransform>
+            </TextBlock>
+            
+        </Canvas>
+        <Slider Height="23" HorizontalAlignment="Left" Margin="24,258,0,0" Name="slider1" VerticalAlignment="Top" Width="271" ValueChanged="slider1_ValueChanged" Maximum="100" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="24,287,0,0" Name="slider2" VerticalAlignment="Top" Width="271" Maximum="100" ValueChanged="slider2_ValueChanged" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="24,316,0,0" Name="slider3" VerticalAlignment="Top" Width="271" Maximum="100" ValueChanged="slider3_ValueChanged" />
+        <sdk:Label Height="23" HorizontalAlignment="Left" Margin="301,258,0,0" Name="label1" VerticalAlignment="Top" Width="62" />
+        <sdk:Label Height="23" HorizontalAlignment="Left" Margin="301,287,0,0" Name="label2" VerticalAlignment="Top" Width="62" />
+        <sdk:Label Height="23" HorizontalAlignment="Left" Margin="301,316,0,0" Name="label3" VerticalAlignment="Top" Width="62" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="369,258,0,0" Maximum="100" Name="slider4" VerticalAlignment="Top" Width="271" ValueChanged="slider4_ValueChanged" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="369,287,0,0" Maximum="100" Name="slider5" VerticalAlignment="Top" Width="271" ValueChanged="slider5_ValueChanged" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="369,316,0,0" Maximum="100" Name="slider6" VerticalAlignment="Top" Width="271" ValueChanged="slider6_ValueChanged" />
+        <sdk:Label Height="23" HorizontalAlignment="Left" Margin="653,258,0,0" Name="label4" VerticalAlignment="Top" Width="100" />
+        <sdk:Label Height="23" HorizontalAlignment="Left" Margin="653,287,0,0" Name="label5" VerticalAlignment="Top" Width="100" />
+        <sdk:Label Height="23" HorizontalAlignment="Left" Margin="653,316,0,0" Name="label6" VerticalAlignment="Top" Width="100" />
+        <Button Height="24" HorizontalAlignment="Left" Margin="483,360,0,0" Name="button1" Content ="Выход" VerticalAlignment="Top" Width="104" Click="button1_Click" />
+    </Grid>
+</UserControl>

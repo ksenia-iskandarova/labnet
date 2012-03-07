@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\1\documents\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\1\documents\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\1\documents\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\1\documents\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\Package\PackageTmp\App_Data" setAclResourceType="Directory" setAclAccess="Write" />
+  <dbFullSql path="C:\Users\1\documents\visual studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\AutoScripts\ConnectionString-развертывание_DataOnly.sql" Transacted="True" />
+</sitemanifest>
